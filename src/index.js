@@ -1,4 +1,4 @@
-import './style.css'
+import './styles/index.scss'
 
 const userProject = {
     name: 'MetaLamp',

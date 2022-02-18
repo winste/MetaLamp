@@ -1,0 +1,18 @@
+$primaryColor: rgb(223, 226, 43);
+$secondColor: brown;
+
+html {
+    font-family: generalFont;
+}
+h1 {
+    color: $primaryColor;
+}
+
+.container {
+    &__subtitle {
+    color: $secondColor;
+    display: block;
+    height: 140px;
+    background: url(../images/EkD2aOCXgAIWm_U.png);
+    }
+}
