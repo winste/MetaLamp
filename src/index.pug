@@ -1,13 +1,11 @@
+include ./pug/libs/_libs
+
 doctype html
 html(lang='en')
-  head
-    meta(charset='UTF-8')
-    meta(http-equiv='X-UA-Compatible' content='IE=edge')
-    meta(name='viewport' content='width=device-width, initial-scale=1.0')
-    title Document
+  include pug/_head
   body
     .container
       h1 hello world
       h2.container__subtitle
         | Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci minus blanditiis nisi id quia a similique iusto repellat voluptas ipsam consectetur non debitis, distinctio numquam cum laboriosam dolores perferendis commodi.
-      img(src='./images/EkD2aOCXgAIWm_U.png' alt='')
+      +image('EkD2aOCXgAIWm_U')
