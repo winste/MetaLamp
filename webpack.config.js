@@ -6,6 +6,7 @@ module.exports = {
     mode: 'development',
     entry: {
       main: './src/index.js',
+      colorsAndType: './src/pages/UI-kit/colors-and-type/colors-and-type.js',
     },
     output: {
       filename: '[name].[contenthash].js',
